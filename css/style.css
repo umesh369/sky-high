@@ -1,0 +1,508 @@
+@font-face {
+    font-family: 'Aver';
+    src: url("../fonts/Aver.eot?#iefix") format("embedded-opentype"), url("../fonts/Aver.woff") format("woff"), url("../fonts/Aver.ttf") format("truetype"), url("../fonts/Aver.svg#Aver") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'WebRupee_V2_0';
+    src: url('../fonts/WebRupee_V2_0.eot');
+    src: url('../fonts/WebRupee_V2_0.eot') format('embedded-opentype'), url('../fonts/WebRupee_V2_0.woff2') format('woff2'), url('../fonts/WebRupee_V2_0.woff') format('woff'), url('../fonts/WebRupee_V2_0.ttf') format('truetype'), url('../fonts/WebRupee_V2_0.svg#WebRupee_V2_0') format('svg');
+}
+.rupee {
+    font-family: 'WebRupee_V2_0';
+}
+.prime-font,
+body {
+    font-family: "Aver";
+    font-size: 16px;
+    color: #414042;
+}
+.box-sizing,
+.banner .form #form_container .selldof input,
+.banner .form #form_container .selldof textarea {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+img,
+input,
+textarea {
+    border: none;
+    outline: none;
+}
+.selldof {
+    font-family: "Aver" !important;
+    font-size: 16px !important;
+    color: #414042 !important;
+}
+#main {
+    width: 100%;
+    max-height: 1600px;
+}
+.head {
+    width: 96%;
+    float: left;
+    padding: 0.5% 2%;
+}
+.head .logo {
+    width: 145px;
+    float: left;
+}
+.head .logo img {
+    width: 100%;
+    height: auto;
+}
+.head .menu {
+    float: left;
+    padding: 20px 0 0 40px;
+}
+.head .menu ul {
+    float: left;
+}
+.head .menu ul li {
+    float: left;
+    list-style: none;
+}
+.head .menu ul li a {
+    float: left;
+    padding: 10px 25px;
+    font-size: 18px;
+    color: #baa478;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-right: 1px solid #7c1442;
+}
+.head .menu ul li a.lastMenu {
+    border-right: none;
+}
+.head .callNow {
+    float: right;
+    text-decoration: none;
+    color: #7c1442;
+    padding: 30px 0 0;
+    font-size: 15px;
+}
+.head .menu {
+    float: left;
+}
+.banner {
+    width: 100%;
+    float: left;
+    position: relative;
+    /* background: url(../images/banner.jpg) left bottom no-repeat; */
+    /* padding: 95px 0; */
+}
+.banner img {
+    width: 100%;
+    height: auto;
+}
+.banner .bannerImg {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.banner .form {
+    float: right;
+    width: 410px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    opacity: 0;
+    /*  margin: 5% 5% 5% 0; */
+}
+.banner .form #form_container {
+    background: rgba(35, 31, 32, 0.76);
+    text-align: center;
+    padding: 30px;
+}
+.banner .form #form_container .selldof .form-group {
+    margin: 25px 0 0;
+    text-align: center;
+}
+.banner .form #form_container .selldof input {
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+    padding: 0 12px;
+    font-family: "Aver";
+    color: #414042;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.banner .form #form_container .selldof input.btn {
+    width: 100%;
+    height: 35px;
+    background: #7c1442;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-radius: 0;
+    box-shadow: none;
+}
+.banner .form #form_container .selldof textarea {
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+    padding: 0 12px;
+    line-height: 32px;
+    font-family: "Aver";
+    color: #414042;
+    border-radius: 0;
+    box-shadow: none;
+}
+.banner .form > .title {
+    width: 100%;
+    text-align: center !important;
+    padding: 0 0 15px !important;
+    margin: 0 !important;
+}
+.banner .form .title {
+    text-align: center !important;
+}
+.banner .form .title strong {
+    font-weight: normal;
+    font-size: 20px;
+    color: #7c1442;
+    text-transform: uppercase;
+}
+.banner .form .title h2 {
+    font-weight: normal;
+    font-size: 46px;
+    color: #7c1442;
+    text-transform: uppercase;
+    padding: 0 0 5px;
+}
+.banner .form .title h3 {
+    font-weight: normal;
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.banner .form span {
+    font-size: 14px;
+    color: #7c1442;
+    text-transform: uppercase;
+    border-top: 2px solid #b09b72;
+    padding: 5px 0 0;
+}
+.banner .form #form_container .selldof .tel-HvrTxt,
+.banner .form #form_container .selldof .tel-HvrTxt2 {
+    width: 100%;
+    height: 40px;
+    float: left;
+    color: #fff;
+    position: absolute;
+    top: -29px;
+    text-align: center;
+    line-height: 28px;
+    background: url(../images/callout.png) center bottom no-repeat;
+}
+.banner .form #form_container .selldof .tel-HvrTxt strong,
+.banner .form #form_container .selldof .tel-HvrTxt2 strong {
+    width: 100%;
+    height: 28px;
+    float: left;
+    background: #414141;
+    border-radius: 4px;
+    font-weight: normal;
+    font-size: 13px;
+}
+.animateDwn {
+    width: 100%;
+    text-align: center;
+    float: left;
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+}
+.animateDwn a {
+    display: inline-block;
+    position: relative;
+}
+.text {
+    width: 90%;
+    padding: 0 5%;
+    text-align: center;
+    float: left;
+}
+.text h1 {
+    font-weight: normal;
+    font-size: 44px;
+    display: inline-block;
+    border-bottom: 2px solid #7c1442;
+    padding: 3% 0 0;
+}
+.text p {
+    padding: 3% 10% 0;
+    line-height: 22px;
+}
+.about {
+    width: 100%;
+    float: left;
+    padding: 3% 0;
+}
+.about .left {
+    width: 40%;
+    float: left;
+    text-align: center;
+    padding: 5% 5% 0;
+}
+.about .left h1 {
+    font-weight: normal;
+    font-size: 44px;
+    display: inline-block;
+    border-bottom: 2px solid #7c1442;
+}
+.about .left strong {
+    font-weight: normal;
+    font-size: 20px;
+    color: #7c1442;
+    display: block;
+    padding: 6% 0 3%;
+}
+.about .left p {
+    line-height: 22px;
+}
+.about .right {
+    width: 50%;
+    float: left;
+}
+.about .right img {
+    width: 100%;
+    height: auto;
+}
+.amenities,
+.progress {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.amenities h1,
+.progress h1 {
+    font-weight: normal;
+    font-size: 44px;
+    display: inline-block;
+    border-bottom: 2px solid #7c1442;
+}
+.amenities ul {
+    float: left;
+    list-style: none;
+    width: 100%;
+    padding: 3% 0;
+}
+.progress ul {
+    float: none;
+    list-style: none;
+    width: 1200px;
+    margin: 3% auto;
+    text-align: center;
+    padding: 0 50px;
+}
+.amenities ul li {
+    float: left;
+    text-align: center;
+    width: 16.66%;
+}
+.progress ul li {
+    float: left;
+    text-align: center;
+    margin: 0 15px;
+    outline: none;
+}
+.progress ul li img {
+    width: 100%;
+    height: auto;
+}
+.amenities ul li img {
+    display: inline-block !important;
+}
+.amenities ul li span {
+    display: block;
+    padding: 20px 10px 0;
+    font-size: 16px;
+}
+.amenities p {
+    padding: 2% 15%;
+}
+.amenities a {
+    font-size: 16px;
+    color: #fff;
+    padding: 12px 45px;
+    display: inline-block;
+    background: #7c1442;
+    text-transform: uppercase;
+}
+.amenities a.mobMap {
+    display: none;
+}
+.amenities.config {
+    padding: 3% 0;
+    float: none;
+    max-width: 60%;
+    margin: 0 auto;
+    clear: both;
+}
+.amenities.config h1 {
+    margin: 0 0 15px;
+}
+.amenities.config p {
+    font-size: 24px;
+    border-bottom: 1px solid #bcbec0;
+}
+.amenities.config p strong {
+    font-weight: normal;
+    color: #7c1442;
+}
+.amenities.config p span {
+    height: 1px;
+    background: #414042;
+    margin: 7px 10%;
+    width: 150px;
+    display: inline-block;
+}
+.amenities.config .ytVid {
+    width: 55%;
+    display: inline-block;
+    border-top: 1px solid #000;
+    padding: 3% 0 0;
+}
+.amenities.config .ytVid img {
+    cursor: pointer;
+}
+.copy {
+    background: #baa478;
+    text-align: center;
+    font-size: 12px;
+    padding: 12px 0;
+    float: left;
+    width: 100%;
+}
+.discl {
+    padding: 20px 0;
+    border-bottom: 2px solid #7c1442;
+    float: left;
+    text-align: center;
+}
+.discl p {
+    width: 80%;
+    padding: 0 10%;
+    display: block;
+    font-size: 12px;
+}
+.discl a {
+    font-size: 12px;
+    color: #7c1442;
+    border-bottom: 2px solid #7c1442;
+    display: inline-block;
+    margin: 20px 0 5px;
+    cursor: pointer;
+}
+.tds {
+    width: 100%;
+}
+.tds p {
+    font-size: 14px;
+    padding: 0 0 15px;
+    line-height: 18px;
+}
+.tds a {
+    color: #fff;
+    font-size: 14px;
+}
+.main {
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    display: none;
+    z-index: 9;
+}
+.me {
+    background: #000;
+    position: relative;
+    color: #fff;
+    font-size: 13px;
+    border: 20px solid #000;
+}
+.me span {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -36px;
+    top: -42px;
+    color: #fff;
+    font-size: 15px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    background: #272525;
+    cursor: pointer;
+}
+.popDiv {
+    padding: 10px 0;
+    display: none;
+}
+.scrollable {
+    overflow-y: scroll;
+    position: absolute;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.scrollbar {
+    cursor: n-resize;
+    position: absolute;
+    overflow: auto;
+    top: 0px;
+    right: -10px;
+    z-index: 2;
+    background: #7c1442;
+    width: 2px;
+    border-radius: 8px;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+.content img {
+    width: 100%;
+    height: auto;
+}
+.openMe {
+    cursor: pointer;
+}
+.mobBanner {
+    display: none;
+}
+.selldof .has-error .help-block,
+.selldof .has-error .control-label,
+.selldof .has-error .radio,
+.selldof .has-error .checkbox,
+.selldof .has-error .radio-inline,
+.selldof .has-error .checkbox-inline {
+    position: absolute;
+    text-transform: initial;
+    border-top: none;
+    margin-top: 0;
+}
+.selldof .help-block {
+    border-top: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.thankyou {
+    color: #fff;
+}
+.mobMapImg {
+    display: none;
+}
+.banner .form span span {
+    border-top: none;
+}

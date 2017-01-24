@@ -1,0 +1,378 @@
+@media (max-width: 1350px) {
+    .about .left {
+        padding: 2% 5% 0;
+    }
+    .about .left h1,
+    .amenities h1,
+    .progress h1,
+    .text h1 {
+        font-size: 35px;
+    }
+}
+@media (max-width: 1200px) {
+    .banner .form #form_container {
+        padding: 8%;
+    }
+    .banner .form #form_container .selldof .form-group {
+        margin: 15px 0 0;
+    }
+    .banner .form {
+        width: 360px;
+    }
+    .selldof .has-error .help-block,
+    .selldof .has-error .control-label,
+    .selldof .has-error .radio,
+    .selldof .has-error .checkbox,
+    .selldof .has-error .radio-inline,
+    .selldof .has-error .checkbox-inline {
+        font-size: 12px;
+        margin: 0 !important;
+    }
+    .progress ul {
+        width: 100%;
+    }
+    .progress .slick-prev {
+        left: 20px;
+    }
+    .progress .slick-next {
+        right: 20px;
+    }
+}
+@media (max-width: 1150px) {
+    .about .left {
+        padding: 0 2% 0;
+        width: 46%;
+    }
+    .text p {
+        padding: 3% 5% 0;
+    }
+    .banner .form .title h2 {
+        font-size: 35px;
+    }
+    .banner .form span {
+        font-size: 12px;
+    }
+    .banner .form .title h3 {
+        font-size: 22px;
+    }
+    .banner .form #form_container {
+        padding: 20px;
+    }
+}
+@media (max-width: 1024px) {
+    .banner .form {
+        width: 300px;
+    }
+    .banner .form #form_container .selldof .title strong,
+    .banner .form #form_container .selldof .title span {
+        font-size: 14px;
+    }
+    .banner .form #form_container .selldof .title h2 {
+        font-size: 28px;
+    }
+    .banner .form #form_container .selldof input,
+    .banner .form #form_container .selldof textarea,
+    .banner .form #form_container .selldof input.btn {
+        height: 30px;
+    }
+    .banner .form #form_container .selldof textarea {
+        line-height: 30px;
+    }
+    .about .left p {
+        line-height: normal;
+    }
+    .about .left strong {
+        padding: 4% 0 2%;
+    }
+    .banner .form .title h2 {
+        font-size: 28px;
+    }
+    .banner .form .title strong {
+        font-size: 14px;
+    }
+    .banner .form span {
+        font-size: 10px;
+    }
+    .banner .form .title h3 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 980px) {
+    .head .menu ul li a {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .amenities.config {
+        max-width: 80%;
+    }
+}
+@media (max-width: 900px) {
+    .about .left {
+        width: 90%;
+        padding: 0 5% 3%;
+    }
+    .about .right {
+        width: 100%;
+    }
+    .banner .form .title h2 {
+        font-size: 22px;
+    }
+    .banner .form .title strong {
+        font-size: 12px;
+    }
+    .banner .form .title h3 {
+        font-size: 18px;
+    }
+    .banner .form #form_container .selldof input,
+    .banner .form #form_container .selldof textarea,
+    .banner .form #form_container .selldof input.btn {
+        height: 25px;
+    }
+    .banner .form #form_container .selldof textarea {
+        line-height: 22px;
+    }
+}
+@media (max-width: 880px) {
+    .head .menu {
+        display: none;
+    }
+    .amenities p {
+        padding: 2% 5%;
+    }
+    .discl p {
+        width: 90%;
+        padding: 0 5%;
+    }
+}
+@media (max-width: 850px) {
+    .banner .form {
+        width: 100%;
+        left: 0;
+        top: 0 !important;
+        position: relative;
+        opacity: initial !important;
+    }
+    .banner .form #form_container {
+        padding: 4%;
+    }
+    .banner .form #form_container .selldof .title h2 {
+        font-size: 28px;
+    }
+    .banner .form #form_container .selldof .title strong,
+    .banner .form #form_container .selldof .title span {
+        font-size: 16px;
+    }
+    .banner .form #form_container .selldof input,
+    .banner .form #form_container .selldof textarea,
+    .banner .form #form_container .selldof input.btn {
+        height: 30px;
+    }
+    /* .banner .form{width: 275px;}
+.banner .form #form_container .selldof input, .banner .form #form_container .selldof textarea, .banner .form #form_container .selldof input.btn{height: 26px}
+.banner .form #form_container .selldof .form-group{margin: 15px 0 0;}
+.banner .form #form_container .selldof textarea{line-height: 26px;}
+.banner .form #form_container .selldof .title strong, .banner .form #form_container .selldof .title span{font-size: 13px;}
+.banner .form #form_container .selldof .title h2{font-size: 25px;} */
+    
+    .banner .form .title strong {
+        font-size: 18px;
+    }
+    .banner .form .title h2 {
+        font-size: 32px;
+    }
+    .banner .form span {
+        font-size: 14px;
+    }
+    .banner .form > .title {
+        padding: 15px 0 !important;
+    }
+    .banner .form .title h3 {
+        font-size: 22px;
+    }
+    .banner .form #form_container .selldof textarea {
+        line-height: 27px;
+    }
+    .animateDwn {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .amenities.config .ytVid img {
+        width: 100%;
+        height: auto;
+    }
+    .about .left h1,
+    .amenities h1,
+    .progress h1,
+    .text h1 {
+        font-size: 30px;
+    }
+    .amenities.config p {
+        font-size: 20px;
+    }
+    .amenities.config .ytVid {
+        width: 65%;
+    }
+    .amenities.config .ytVid iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 750px) {
+    .banner .form #form_container {
+        padding: 4%;
+    }
+}
+@media (max-width: 720px) {
+    .banner .form {
+        width: 100%;
+        left: 0;
+        top: 0 !important;
+        position: relative;
+        opacity: initial !important;
+    }
+    .banner .form #form_container {
+        padding: 5%;
+    }
+    .banner .form #form_container .selldof .title h2 {
+        font-size: 28px;
+    }
+    .banner .form #form_container .selldof .title strong,
+    .banner .form #form_container .selldof .title span {
+        font-size: 16px;
+    }
+    .banner .form #form_container .selldof input,
+    .banner .form #form_container .selldof textarea,
+    .banner .form #form_container .selldof input.btn {
+        height: 30px;
+    }
+    .text p {
+        padding: 3% 0 0;
+    }
+    .about .left {
+        width: 90%;
+        padding: 5%;
+    }
+    .about .right {
+        width: 100%;
+    }
+    .deskBanner {
+        display: none;
+    }
+    .mobBanner {
+        display: block;
+    }
+    .selldof .has-error .help-block,
+    .selldof .has-error .control-label,
+    .selldof .has-error .radio,
+    .selldof .has-error .checkbox,
+    .selldof .has-error .radio-inline,
+    .selldof .has-error .checkbox-inline {
+        font-size: 14px;
+        margin: 5px 0 0 !important;
+        position: relative;
+    }
+    .amenities a.deskMap {
+        display: none;
+    }
+    .amenities a.mobMap {
+        display: inline-block;
+        cursor: pointer;
+    }
+    .mobMapImg img {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 568px) {
+    .amenities.config {
+        max-width: 82%;
+    }
+}
+@media (max-width: 500px) {
+    .amenities.config .ytVid {
+        width: 65%;
+    }
+    .amenities.config .ytVid iframe {
+        width: 100%;
+        height: auto;
+    }
+    .amenities a {
+        font-size: 14px;
+        padding: 8px 25px;
+    }
+    .amenities.config p span {
+        width: 25%;
+    }
+    .banner .form span {
+        font-size: 12px;
+    }
+}
+@media (max-width: 380px) {
+    .head .logo {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0 0;
+    }
+    .head .logo a {
+        display: inline-block;
+    }
+    .head .logo img {
+        width: auto;
+    }
+    .head .callNow {
+        width: 100%;
+        float: left;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .about .left h1,
+    .amenities h1,
+    .progress h1,
+    .text h1 {
+        font-size: 25px;
+    }
+    .text p {
+        line-height: normal;
+    }
+    .prime-font,
+    body {
+        font-size: 15px;
+    }
+    .about .left strong,
+    .amenities.config p {
+        font-size: 17px;
+    }
+    .amenities ul,
+    .amenities.config {
+        padding: 5% 0;
+    }
+    .banner .form #form_container .selldof .title h2 {
+        font-size: 24px;
+    }
+    .amenities.config p {
+        padding: 15px 0;
+    }
+    .amenities p {
+        padding: 4% 5%;
+    }
+    .copy {
+        font-size: 11px;
+    }
+}
+@media (max-width: 360px) {
+    .banner .form span {
+        font-size: 11px;
+    }
+    .banner .form .title h2 {
+        font-size: 26px;
+    }
+    .banner .form .title strong {
+        font-size: 16px;
+    }
+}
+@media (max-width: 330px) {
+    .banner .form span {
+        font-size: 10px;
+    }
+}
